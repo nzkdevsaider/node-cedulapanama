@@ -39,7 +39,7 @@ const validate = (cedula) => {
 
   var result = {
     isValid: cedula.length === 0 ? true : regex.test(cedula),
-    inputString: cedula,
+    input: cedula,
     isComplete: isComplete,
     cedula: isComplete ? matched.splice(0, 4) : null,
   };
