@@ -16,9 +16,9 @@ const cedulapanama = require("node-cedulapanama");
 
 # Métodos
 
-## validate({String})
+## validate(<String>)
 
--   `{String}` El número de cédula.
+-   `<String>` El número de cédula.
     -   **Ejemplo:** 8-578-1439
 
 Ejemplo de uso:
