@@ -33,7 +33,7 @@ cedulapanama.validate(cedula);
 
 {
   isValid: true,
-  inputString: '8-578-1439',
+  input: '8-578-1439',
   isComplete: true,
   cedula: [ '8', '', '578', '1439' ]
 }
